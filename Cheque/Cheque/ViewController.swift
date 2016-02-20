@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func checkTask(sender: AnyObject) {
         
-        checkButton.
+        checkButton.setImage(UIImage(named: "Checked"), forState: UIControlState.Normal)
         
     }
 
